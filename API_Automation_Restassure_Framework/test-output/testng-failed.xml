@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.webservice.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.webservice.Testcasses.TC001_GET_GET_AllEmployee">
+        <methods>
+          <include name="teardown"/>
+          <include name="getcontentlength"/>
+          <include name="setup"/>
+          <include name="getAllemployee"/>
+        </methods>
+      </class> <!-- com.webservice.Testcasses.TC001_GET_GET_AllEmployee -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,92 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-10T17:15:49Z" name="Suite" finished-at="2019-09-10T17:16:02Z" duration-ms="12992">
+  <suite started-at="2019-09-23T12:24:14Z" name="Default suite" finished-at="2019-09-23T12:24:25Z" duration-ms="11232">
     <groups>
     </groups>
-    <test started-at="2019-09-10T17:15:49Z" name="Test" finished-at="2019-09-10T17:16:02Z" duration-ms="12992">
-      <class name="com.webservice.Testcasses.TC001_GET_GET_AllEmployee">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.webservice.Testcasses.TC001_GET_GET_AllEmployee@5609159b]" started-at="2019-09-10T17:15:50Z" name="setup" finished-at="2019-09-10T17:15:50Z" duration-ms="148" status="PASS">
+    <test started-at="2019-09-23T12:24:14Z" name="Default test" finished-at="2019-09-23T12:24:25Z" duration-ms="11232">
+      <class name="com.webservice.Testcasses.TC003_PUT_RequestMethod">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.webservice.Testcasses.TC003_PUT_RequestMethod@3098cf3b]" started-at="2019-09-23T12:24:14Z" name="setup" finished-at="2019-09-23T12:24:14Z" duration-ms="351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="getAllemployee()[pri:0, instance:com.webservice.Testcasses.TC001_GET_GET_AllEmployee@5609159b]" started-at="2019-09-10T17:15:50Z" name="getAllemployee" finished-at="2019-09-10T17:16:02Z" duration-ms="11659" status="PASS">
+        <test-method is-config="true" signature="putrequest()[pri:0, instance:com.webservice.Testcasses.TC003_PUT_RequestMethod@3098cf3b]" started-at="2019-09-23T12:24:14Z" name="putrequest" finished-at="2019-09-23T12:24:24Z" duration-ms="9679" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAllemployee -->
-        <test-method signature="getstatuscode()[pri:1, instance:com.webservice.Testcasses.TC001_GET_GET_AllEmployee@5609159b]" started-at="2019-09-10T17:16:02Z" name="getstatuscode" finished-at="2019-09-10T17:16:02Z" duration-ms="17" status="PASS">
+        </test-method> <!-- putrequest -->
+        <test-method signature="getbody()[pri:1, instance:com.webservice.Testcasses.TC003_PUT_RequestMethod@3098cf3b]" started-at="2019-09-23T12:24:24Z" name="getbody" finished-at="2019-09-23T12:24:24Z" duration-ms="52" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getstatuscode -->
-        <test-method signature="verifystatusline()[pri:2, instance:com.webservice.Testcasses.TC001_GET_GET_AllEmployee@5609159b]" started-at="2019-09-10T17:16:02Z" name="verifystatusline" finished-at="2019-09-10T17:16:02Z" duration-ms="8" status="PASS">
+        </test-method> <!-- getbody -->
+        <test-method signature="responsecode()[pri:2, instance:com.webservice.Testcasses.TC003_PUT_RequestMethod@3098cf3b]" started-at="2019-09-23T12:24:24Z" name="responsecode" finished-at="2019-09-23T12:24:24Z" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifystatusline -->
-        <test-method signature="statusbody()[pri:3, instance:com.webservice.Testcasses.TC001_GET_GET_AllEmployee@5609159b]" started-at="2019-09-10T17:16:02Z" name="statusbody" finished-at="2019-09-10T17:16:02Z" duration-ms="96" status="PASS">
+        </test-method> <!-- responsecode -->
+        <test-method signature="getdatafromresponsebody()[pri:3, instance:com.webservice.Testcasses.TC003_PUT_RequestMethod@3098cf3b]" started-at="2019-09-23T12:24:24Z" name="getdatafromresponsebody" finished-at="2019-09-23T12:24:25Z" duration-ms="1023" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- statusbody -->
-        <test-method signature="getcontenttype()[pri:4, instance:com.webservice.Testcasses.TC001_GET_GET_AllEmployee@5609159b]" started-at="2019-09-10T17:16:02Z" name="getcontenttype" finished-at="2019-09-10T17:16:02Z" duration-ms="8" status="PASS">
+        </test-method> <!-- getdatafromresponsebody -->
+        <test-method signature="getallheader()[pri:4, instance:com.webservice.Testcasses.TC003_PUT_RequestMethod@3098cf3b]" started-at="2019-09-23T12:24:25Z" name="getallheader" finished-at="2019-09-23T12:24:25Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getcontenttype -->
-        <test-method signature="getcontentencoding()[pri:5, instance:com.webservice.Testcasses.TC001_GET_GET_AllEmployee@5609159b]" started-at="2019-09-10T17:16:02Z" name="getcontentencoding" finished-at="2019-09-10T17:16:02Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getcontentencoding -->
-        <test-method signature="getcontentlength()[pri:6, instance:com.webservice.Testcasses.TC001_GET_GET_AllEmployee@5609159b]" started-at="2019-09-10T17:16:02Z" name="getcontentlength" finished-at="2019-09-10T17:16:02Z" duration-ms="8" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at com.webservice.Testcasses.TC001_GET_GET_AllEmployee.getcontentlength(TC001_GET_GET_AllEmployee.java:100)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getcontentlength -->
-        <test-method signature="getcookie()[pri:8, instance:com.webservice.Testcasses.TC001_GET_GET_AllEmployee@5609159b]" started-at="2019-09-10T17:16:02Z" name="getcookie" finished-at="2019-09-10T17:16:02Z" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getcookie -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.webservice.Testcasses.TC001_GET_GET_AllEmployee@5609159b]" started-at="2019-09-10T17:16:02Z" name="teardown" finished-at="2019-09-10T17:16:02Z" duration-ms="4" status="PASS">
+        </test-method> <!-- getallheader -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.webservice.Testcasses.TC003_PUT_RequestMethod@3098cf3b]" started-at="2019-09-23T12:24:25Z" name="teardown" finished-at="2019-09-23T12:24:25Z" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.webservice.Testcasses.TC001_GET_GET_AllEmployee -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.webservice.Testcasses.TC003_PUT_RequestMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
